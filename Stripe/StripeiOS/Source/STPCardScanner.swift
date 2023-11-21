@@ -43,7 +43,7 @@ class STPCardScanner: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
         if NSClassFromString("XCTest") != nil {
             return true
         }
-        return false //cardScanningAvailableCameraHasUsageDescription  
+        return false
     }
 
     weak var cameraView: STPCameraView?
